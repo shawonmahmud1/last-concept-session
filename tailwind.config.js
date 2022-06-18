@@ -23,7 +23,7 @@ module.exports = {
 
           "error": "#FA5C5C",
         },
-       /*  dark: {
+        dark: {
 
           "primary": "#D9F99D",
 
@@ -42,7 +42,7 @@ module.exports = {
           "warning": "#F59E0B",
 
           "error": "#FB7185",
-        }, */
+        },
       },
     ],
   },
