@@ -2,7 +2,7 @@ import React from "react";
 import { Navigate, Outlet, useLocation } from "react-router-dom";
 import Login from "../pages/Login";
 
-const PrivateRoute = ({ children }) => {
+const PrivateRoute = () => {
   const location = useLocation();
   const user = true;
   if (!user) {
